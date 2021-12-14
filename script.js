@@ -11,43 +11,42 @@ const readMe = ({ title, description, installation, usage, license, contribution
 
     return `# ${title}
 
-    ## Table of Contents
-    - [Description](#Description)
-    - [Installation](#Installation)
-    - [Usage](#Usage)
-    - [Contribution](#Contribution)
-    - [Test](#Test)
-    - [Questions](#Questions)
-    
+## Table of Contents
+- [Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contribution](#Contribution)
+- [Test](#Test)
+- [Questions](#Questions)
+            
 
-    ![License](${choices[license]})
+![License](${choices[license]})
 
-    ## Description
-    
-    ${description}
-    
-    ## Installation
+## Description
+            
+${description}
+            
+## Installation
 
-    ${installation}
+${installation}
 
-    ## Usage
+## Usage
 
-    ${usage}
+${usage}
 
-    ## Contribution
+## Contribution
 
-    ${contribution}
+${contribution}
 
-    ## Test
+## Test
 
-    ${test}
+${test}
 
-    ## Questions
+## Questions
 
-    [Github](${github})
+[Github](https://github.com/${github})
 
-    If you have any addtional questions, please contact me by email at: ${email}   
-    `;
+If you have any addtional questions, please contact me by email at: ${email}`;
 }
 
 inquirer
