@@ -1,1 +1,6 @@
-const readMe = ``;
+const fs = require('fs');
+const inquirer = require('inquirer');
+const readMe =({})=>{
+
+} 
+
