@@ -4,7 +4,7 @@
 - [Description](#Description)
 - [Installation](#Installation)
 - [Usage](#Usage)
-
+- [Link](#Link)
 
 
 ## Description
@@ -27,3 +27,7 @@ The Readme Generator is a program that generates a readme file based on input fr
 3. In terminal type node index.js
 4. Answer prompt questions
 5. Once finished a read.md file will be create in the same folder as your index.js file
+
+
+## Link
+[Walkthrough-Video](https://watch.screencastify.com/v/7yHapptu6HStS6UaidaU)
