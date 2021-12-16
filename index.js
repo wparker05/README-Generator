@@ -96,6 +96,6 @@ inquirer
         }
     ])
     .then((answers) => {
-         fs.writeFile('Read.md', readMe(answers) ,(err) => err ? console.error(err): console.log('Success!'));
+         fs.writeFile('./dist/README.md', readMe(answers) ,(err) => err ? console.error(err): console.log('Success!'));
     });
 
